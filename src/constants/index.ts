@@ -6,8 +6,9 @@ import memojiAvatar2 from '@/assets/images/memoji-avatar-2.png';
 import memojiAvatar3 from '@/assets/images/memoji-avatar-3.png';
 import memojiAvatar4 from '@/assets/images/memoji-avatar-4.png';
 import memojiAvatar5 from '@/assets/images/memoji-avatar-5.png';
+import { Projects } from '@/types';
 
-export const portfolioProjects = [
+export const portfolioProjects: Projects[] = [
     {
         company: 'Acme Corp',
         year: '2022',
