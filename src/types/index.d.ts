@@ -8,3 +8,10 @@ export type Projects = {
     link: string;
     image: StaticImageData;
 };
+
+export type Testimonials = {
+    name: string;
+    position: string;
+    text: string;
+    avatar: StaticImageData;
+};

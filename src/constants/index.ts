@@ -6,7 +6,7 @@ import memojiAvatar2 from '@/assets/images/memoji-avatar-2.png';
 import memojiAvatar3 from '@/assets/images/memoji-avatar-3.png';
 import memojiAvatar4 from '@/assets/images/memoji-avatar-4.png';
 import memojiAvatar5 from '@/assets/images/memoji-avatar-5.png';
-import { Projects } from '@/types';
+import { Projects, Testimonials } from '@/types';
 
 export const portfolioProjects: Projects[] = [
     {
@@ -47,7 +47,7 @@ export const portfolioProjects: Projects[] = [
     },
 ];
 
-export const testimonials = [
+export const testimonials: Testimonials[] = [
     {
         name: 'Alex Turner',
         position: 'Marketing Manager @ TechStartups',
