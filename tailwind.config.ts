@@ -19,6 +19,10 @@ export default {
                 md: '2rem',
             },
         },
+        fontFamily: {
+            sans: 'var(--font-sans)',
+            serif: 'var(--font-serif)',
+        },
     },
     plugins: [],
 } satisfies Config;
