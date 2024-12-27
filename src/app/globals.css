@@ -16,4 +16,8 @@
     .container {
         @apply lg:max-w-5xl;
     }
+
+    .blue-gradient {
+        @apply bg-gradient-to-r from-emerald-300 to-sky-400;
+    }
 }
