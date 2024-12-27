@@ -6,6 +6,12 @@ import memojiAvatar2 from '@/assets/images/memoji-avatar-2.png';
 import memojiAvatar3 from '@/assets/images/memoji-avatar-3.png';
 import memojiAvatar4 from '@/assets/images/memoji-avatar-4.png';
 import memojiAvatar5 from '@/assets/images/memoji-avatar-5.png';
+import { ChromeIcon } from '@/components/icons/chrome';
+import { CSS3Icon } from '@/components/icons/css';
+import { GithubIcon } from '@/components/icons/github';
+import { HTML5Icon } from '@/components/icons/html-5';
+import { JavascriptIcon } from '@/components/icons/javascript';
+import { ReactIcon } from '@/components/icons/react';
 import { Projects, Testimonials } from '@/types';
 
 export const portfolioProjects: Projects[] = [
@@ -92,4 +98,23 @@ export const words = [
     'Search Optimized',
     'Usable',
     'Reliable',
+];
+
+export const toolboxItems = [
+    { title: 'JavaScript', iconType: JavascriptIcon },
+    { title: 'HTML', iconType: HTML5Icon },
+    { title: 'CSS', iconType: CSS3Icon },
+    { title: 'React', iconType: ReactIcon },
+    { title: 'Chrome', iconType: ChromeIcon },
+    { title: 'Github', iconType: GithubIcon },
+];
+
+export const hobbies = [
+    { title: 'Painting', emoji: '🎨', left: '5%', top: '5%' },
+    { title: 'Photography', emoji: '📷', left: '50%', top: '5%' },
+    { title: 'Hiking', emoji: '🥾', left: '35%', top: '40%' },
+    { title: 'Gaming', emoji: '🎮', left: '10%', top: '35%' },
+    { title: 'Music', emoji: '🎧', left: '70%', top: '45%' },
+    { title: 'Fitness', emoji: '🏋🏻‍♀️', left: '5%', top: '65%' },
+    { title: 'Reading', emoji: '📚', left: '45%', top: '70%' },
 ];
